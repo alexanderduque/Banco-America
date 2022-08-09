@@ -12,203 +12,97 @@
 </head>
 
 <body>
-
-    <div class="grid-contenedor">
-        <header>
-
-            <div class="logo-banco">
-
-                <img src="../img/logo banco.jpg" alt="logo del banco">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BANCO AMERICA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hacetecliente.html">Hacete cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./tarjetas.html">Tarjetas</a></li>
+                            <li><a class="dropdown-item" href="./cuentas.html">Cuentas</a></li>
+                            <li><a class="dropdown-item" href="./prestamos.html">Prestamos</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-
-            <h1 class="h1-nav">Banco America</h1>
-
-            <!-- clase para poder identificar solo la imagen del logo del banco ya que 
-            en un futuro le agregare mas imagenes que tambien estaran en el header cerca del logo del banco-->
-
-
-
-        </header>
-
-        <nav>
-            <ul class="navegacion-all">
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="../pages/online.html">online Banking</a></li>
-                <li><a href="../pages/hacetecliente.html">hacete cliente</a></li>
-
-
-
-
-            </ul>
-
-        </nav>
-
-    </div>
-
+        </div>
+    </nav>
     <main>
-
         <div>
             <img src="../img/centro de ayuda (2).jpg" class="img-fluid" alt="imagen centro de ayuda">
         </div>
-
         <div class="centro-de-ayuda-contenedor">
-
             <h2 class="c1">Denuncias por Robo o perdida de Productos</h2>
             <h2 class="c2">Desconocimiento y Fraude Informatico</h2>
             <h2 class="c3">¿Que necesito para comprar Dolar Ahorro?</h2>
             <h2 class="c4">Claves</h2>
             <h2 class="c5">Otras consultas</h2>
             <section>
-
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                 </div>
-
             </section>
-
             <section class="b2">
-
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                 </div>
-
             </section>
-
             <section class="b3">
-
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                 </div>
-
             </section>
-
             <section class="b4">
-
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                 </div>
-
             </section>
-
             <section class="b5">
-
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                 </div>
-
             </section>
-
         </div>
-
-        
-
-
-
-        <!-- <form action="">
-
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre">
-
-            </div>
-
-            <div>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido">
-
-            </div>
-
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email">
-            </div>
-
-            <div>
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" name="contrasena">
-
-            </div>
-
-            <div>
-                <label for="masculino">masculino</label>
-                <input type="radio" name="masculino">
-
-            </div>
-
-            <div>
-                <label for="femenino">femenino</label>
-                <input type="radio" name="femenino">
-            </div>
-
-            <div>
-                <label for="otro">otro</label>
-                <input type="radio" name="otro">
-            </div>
-
-            <div>
-                <p> escribinos tu consulta</p>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-
-            <div>
-                <select name="" id="">SUCURSAL
-                    <option value="">palermo</option>
-                    <option value="">recoleta</option>
-                    <option value="">vicente lopez</option>
-                </select>
-
-            </div>
-
-            <div>
-
-                <input type="submit">
-                <input type="reset">
-            </div>
-
-
-
-        </form> -->
-
     </main>
-
     <footer class="grid-footer-centro-de-ayuda">
-
-
         <h3 class="redes-texto">Seguinos en Redes</h3>
         <h3 class="redes-texto-blanco"></h3>
-
         <div class="redes">
-            
-
-           
-
-       
-
-
-
-
-
-
             <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt="instagram"></a>
             <a href="https://es-la.facebook.com/"><img src="../img/facebook.png" alt="facebook"></a>
             <a href="https://twitter.com/?lang=es"><img src="../img/twitter.png" alt="twitter"></a>
             <a href="https://www.youtube.com/"><img src="../img/youtube.png" alt="youtube"></a>
-
-
         </div>
-
         <h3 class="llamada-banco"> Por cualquiera de estas consultas porfavor
             Comunicarse a 0800 America
         </h3>
-
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
-
 
 </html>

@@ -5,61 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Prestamos</title>
 </head>
 
 <body>
-
-    <div class="grid-contenedor">
-        <header>
-
-            <div class="logo-banco">
-
-                <img src="../img/logo banco.jpg" alt="logo del banco">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BANCO AMERICA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hacetecliente.html">Hacete cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./centrodeayuda.html">Centro de ayuda</a></li>
+                            <li><a class="dropdown-item" href="./cuentas.html">cuentas</a></li>
+                            <li><a class="dropdown-item" href="./tarjetas.html">Tarjetas</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
 
-            <h1 class="h1-nav">Banco America</h1>
-
-            <!-- clase para poder identificar solo la imagen del logo del banco ya que 
-            en un futuro le agregare mas imagenes que tambien estaran en el header cerca del logo del banco-->
-
-
-
-        </header>
-
-        <nav>
-            <ul class="navegacion-all">
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="../pages/online.html">online Banking</a></li>
-                <li><a href="../pages/hacetecliente.html">hacete cliente</a></li>
-
-
-
-
-            </ul>
-
-        </nav>
-
-    </div>
     <main>
+        <div>
+            <img src="../img/prestamo imagen3.jpg" class="img-fluid" alt="imagen centro de ayuda">
+        </div>
 
+        <div class="grid-contenedor-prestamos">
+            <section class="border-personal">
+                <div class="prestamo-personal">
+                    <img src="../img/prestamo personal.png" alt="prestamo personal">
+                    <p class="p-personal1">PRESTAMO PERSONAL</p>
+                    <P class="p-personal2">Una linea de credito personal para
+                        lo que necesites con una baja tasa de interes
+                    </P>
+                </div>
+            </section>
+            <section class="border-hipotecario">
+                <div class="prestamo-hipotecario">
+                    <img src="../img/pages prestamo.png" alt="prestamo hipotecario">
+                    <p class="p-hipotecario1">CREDITO HIPOTECARIO</p>
+                </div>
+                <P class="p-hipotecario2">Compra la casa de tus sueños y
+                    pagala hasta en 30 años
+                </P>
+            </section>
+            <section class="border-prendario">
+                <div class="prestamo-prendario">
+                    <img src="../img/prestamo auto.png" alt="credito prendario">
+                    <p class="p-prendario1">CREDITO PRENDARIO</p>
+                </div>
+                <p class="p-prendario2">compra cualquier auto superior al 2015
+                    con nuestros creditos diseñados para vos
+                </p>
+            </section>
+        </div>
     </main>
-
     <footer>
         <h3>Seguinos en Redes</h3>
         <div class="redes">
-
             <a href="https://www.instagram.com/"><img src="../img/instagram.png" alt="instagram"></a>
             <a href="https://es-la.facebook.com/"><img src="../img/facebook.png" alt="facebook"></a>
             <a href="https://twitter.com/?lang=es"><img src="../img/twitter.png" alt="twitter"></a>
             <a href="https://www.youtube.com/"><img src="../img/youtube.png" alt="youtube"></a>
-
-
         </div>
-
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
