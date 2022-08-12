@@ -1,0 +1,117 @@
+@media screen and (max-width: 2900) {
+
+    .grid-contenedor-section {
+        display: flex;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px 400px 400px;
+        background-color: white;
+        grid-template-areas:
+
+            "a b c"
+            "d e f"
+        ;
+
+        img {
+            height: 250px;
+            width: 350px;
+        }
+
+        .p {
+            text-align: center;
+        }
+
+        .creditohipotecario {
+            grid-area: a;
+        }
+
+        .tarjetas {
+            grid-area: b;
+        }
+
+        .cuentasueldo {
+            grid-area: c;
+        }
+
+        .cuentaonline {
+            margin-top: 300px;
+            grid-area: d;
+        }
+
+        .beneficios {
+            margin-top: 300px;
+            grid-area: e;
+        }
+
+        .seguros {
+            margin-top: 300px;
+            grid-area: f;
+        }
+
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .grid-contenedor-section {
+        display: flex;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        grid-template-rows: 600px 600px 600px;
+        background-color: white;
+        grid-template-areas:
+            "a b"
+            "c d"
+            "e f"
+        ;
+
+
+        img {
+            height: 250px;
+            width: 350px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .creditohipotecario {
+            width: 600px;
+            height: 400px;
+            grid-area: a;
+        }
+
+        .tarjetas {
+            width: 600px;
+            height: 400px;
+            margin-top: 43px;
+            margin-left: 0px;
+            grid-area: b;
+        }
+
+        .cuentasueldo {
+            width: 600px;
+            height: 400px;
+            margin: 0px;
+            grid-area: c;
+        }
+
+        .cuentaonline {
+            width: 600px;
+            height: 400px;
+            margin: 0px;
+            grid-area: d;
+        }
+
+        .beneficios {
+            margin: 0px;
+            grid-area: e;
+        }
+
+        .seguros {
+            margin: 0px;
+            grid-area: f;
+        }
+    }
+}

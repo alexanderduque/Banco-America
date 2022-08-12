@@ -1,1751 +1,327 @@
 *,
 ::before,
 ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.creditohipotecario {
-
-
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 80px;
-    margin-top: 40px;
-    text-align: center;
-    border-radius: 15px;
-    background-color: aliceblue;
-    display: inline-block;
-    margin-right: 20px;
-
-}
-
-.creditohipotecario img {
-
-    width: 320px;
-    height: 200px;
-    border-radius: 30px;
-    margin-top: 20px;
-}
-
-.creditohipotecario p {
-    margin-top: 20px;
-    margin-bottom: 35px;
-    font-size: 20px;
-}
-
-.creditohipotecario a {
-    text-decoration: none;
-    background-color: rgb(17, 20, 153);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.tarjetas {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    text-align: center;
-    border-radius: 15px;
-    background-color: aliceblue;
-    margin-left: 19px;
-    margin-top: 40px;
-}
-
-.tarjetas img {
-    width: 340px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-
-.tarjetas p {
-    margin-top: 20px;
-    margin-bottom: 67px;
-    font-size: 20px;
-}
-
-.tarjetas a {
-    text-decoration: none;
-    background-color: rgb(17, 20, 153);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.cuentasueldo {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
-    margin-top: 42px;
-}
-
-.cuentasueldo img {
-    width: 330px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-
-.cuentasueldo p {
-    margin-top: 20px;
-    margin-bottom: 65px;
-    font-size: 20px;
-}
-
-.cuentasueldo a {
-    text-decoration: none;
-    background-color: rgb(17, 20, 153);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.cuentaonline {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
-}
-
-.cuentaonline img {
-    width: 350px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-
-.cuentaonline p {
-    margin-top: 20px;
-    margin-bottom: 97px;
-    font-size: 20px;
-}
-
-.cuentaonline a {
-    text-decoration: none;
-    background-color: rgb(17, 20, 153);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.beneficios {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
-    margin-right: 20px;
-}
-
-.beneficios img {
-    width: 330px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-
-.beneficios p {
-    margin-top: 20px;
-    margin-bottom: 97px;
-    font-size: 20px;
-}
-
-.beneficios a {
-    text-decoration: none;
-    background-color: rgb(17, 20, 153);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.seguros {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
-}
-
-.seguros img {
-    width: 330px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px;
-}
-
-.seguros p {
-    margin-top: 20px;
-    margin-bottom: 97px;
-    font-size: 20px;
-}
-
-.seguros a {
-    text-decoration: none;
-    background-color: rgb(17, 20, 153);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-/*------header y navs----------*/
-header {
-    padding: 20px;
-    justify-content: space-between;
-    margin: 20px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-}
-
-header h1 {
-    text-align: left;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 77px 8px 0 19px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: rgba(32, 109, 172, 0.925);
-    background-color: rgba(245, 245, 245, 0.918);
-    padding: 12px;
-    font-size: 15px;
-    font-weight: 900px;
-    border-radius: 30px;
-}
-
-.logo-banco img {
-
-    width: 100px;
-    height: 100px;
-}
-
-/*titulo secundario" Hola como podemos ayudarte"*/
-
-h2 {
-    margin-top: 50px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 28px;
-    color: rgb(22, 25, 170);
-}
-
-/*-----------footer-------------*/
-.redes a img {
-    width: 50px;
-    height: 50px;
-    margin-right: 25px;
-}
-
-/*pages sucursales*/
-.palermo {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.recoleta {
-    margin-top: 80px;
-    text-align: center;
-}
-
-.vicente {
-    margin-top: 80px;
-    text-align: center;
-}
-
-.menu-header ul li {
-    margin-left: 300px;
-}
-
-.pin {
-    text-align: center;
-}
-
-.pin img {
-    width: 100px;
-    height: 100px;
-}
-
-/*----Habilito contanedor de section index----*/
-
-.grid-contenedor-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/*----ul y li del index-----*/
-
-.nav-inicio ul {
+.nav-inicio {
+  transition: 5s; }
+  .nav-inicio ul {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-}
+    list-style: none; }
+    .nav-inicio ul li {
+      margin: 20px 0px 50px 0px; }
+      .nav-inicio ul li:hover {
+        text-decoration: overline;
+        transform: scale(1.5); }
+      .nav-inicio ul li a {
+        text-decoration: none;
+        color: rgba(32, 109, 172, 0.925);
+        background-color: rgba(245, 245, 245, 0.918);
+        padding: 12px;
+        font-size: 15px;
+        font-weight: 900px;
+        border-radius: 30px; }
 
-.nav-inicio ul li {
-    margin: 20px 0px 50px 0px;
-}
+.logo-banco img {
+  width: 100px;
+  height: 100px; }
 
-/*inicio de gradientes y animaciones*/
+h2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  color: #1619aa; }
 
+.grid-contenedor-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 400px 400px 400px;
+  background-color: white;
+  grid-template-areas: "a b c" "d e f"; }
 
+.creditohipotecario {
+  grid-area: a; }
 
-.nav-inicio {
+.tarjetas {
+  grid-area: b; }
 
-    transition: 5s;
-}
+.cuentasueldo {
+  grid-area: c; }
 
-.nav-inicio ul :hover {
+.cuentaonline {
+  margin-top: 300px;
+  grid-area: d; }
 
+.beneficios {
+  margin-top: 300px;
+  grid-area: e; }
 
-    text-decoration: overline;
+.seguros {
+  margin-top: 300px;
+  grid-area: f; }
 
-    transform: scale(1.5);
-}
+img {
+  height: 250px;
+  width: 350px; }
 
-.navl ul :hover {
+p {
+  text-align: center; }
 
-    transform: scale(1.2);
-}
-
-.navr ul :hover {
-
-    transform: scale(1.2);
-}
-
-.redes :hover {
-
-    transform: scale(1.2);
-}
-
-.seguros a:hover {
-
-    background-color: rgba(21, 21, 252, 0.671);
+.creditohipotecario {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gainsboro;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: aliceblue;
+  display: inline-block;
+  margin-right: 20px; }
+  .creditohipotecario img {
+    width: 320px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 20px; }
+  .creditohipotecario p {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 20px; }
+  .creditohipotecario a {
+    text-decoration: none;
+    background-color: #111499;
+    padding: 10px;
     color: white;
-}
+    border-radius: 10px; }
+    .creditohipotecario a:hover {
+      background-color: rgba(21, 21, 252, 0.671);
+      color: white; }
 
-.creditohipotecario a:hover {
-
-
-    background-color: rgba(21, 21, 252, 0.671);
+.tarjetas {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gainsboro;
+  text-align: center;
+  border-radius: 15px;
+  background-color: aliceblue;
+  margin-left: 19px;
+  margin-top: 40px; }
+  .tarjetas img {
+    width: 340px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 30px; }
+  .tarjetas p {
+    margin-top: 20px;
+    margin-bottom: 67px;
+    font-size: 20px; }
+  .tarjetas a {
+    text-decoration: none;
+    background-color: #111499;
+    padding: 10px;
     color: white;
-}
+    border-radius: 10px; }
+    .tarjetas a:hover {
+      background-color: rgba(21, 21, 252, 0.671);
+      color: white; }
 
-.tarjetas a:hover {
-
-    background-color: rgba(21, 21, 252, 0.671);
+.cuentasueldo {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gainsboro;
+  text-align: center;
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 15px;
+  margin-top: 42px; }
+  .cuentasueldo img {
+    width: 330px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 30px; }
+  .cuentasueldo p {
+    margin-top: 20px;
+    margin-bottom: 65px;
+    font-size: 20px; }
+  .cuentasueldo a {
+    text-decoration: none;
+    background-color: #111499;
+    padding: 10px;
     color: white;
-}
+    border-radius: 10px; }
+    .cuentasueldo ahover {
+      background-color: rgba(21, 21, 252, 0.671);
+      color: white; }
 
-.cuentasueldo a:hover {
-
-    background-color: rgba(21, 21, 252, 0.671);
+.cuentaonline {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gainsboro;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 15px; }
+  .cuentaonline img {
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 30px; }
+  .cuentaonline p {
+    margin-top: 20px;
+    margin-bottom: 97px;
+    font-size: 20px; }
+  .cuentaonline a {
+    text-decoration: none;
+    background-color: #111499;
+    padding: 10px;
     color: white;
-}
+    border-radius: 10px; }
+    .cuentaonline a:hover {
+      background-color: rgba(21, 21, 252, 0.671);
+      color: white; }
 
-.cuentaonline a:hover {
-
-    background-color: rgba(21, 21, 252, 0.671);
+.beneficios {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gainsboro;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 15px;
+  margin-right: 20px; }
+  .beneficios img {
+    width: 330px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 30px; }
+  .beneficios p {
+    margin-top: 20px;
+    margin-bottom: 97px;
+    font-size: 20px; }
+  .beneficios a {
+    text-decoration: none;
+    background-color: #111499;
+    padding: 10px;
     color: white;
-}
+    border-radius: 10px; }
+    .beneficios a:hover {
+      background-color: rgba(21, 21, 252, 0.671);
+      color: white; }
 
-.beneficios a:hover {
-
-    background-color: rgba(21, 21, 252, 0.671);
+.seguros {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gainsboro;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 15px; }
+  .seguros img {
+    width: 330px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 30px; }
+  .seguros p {
+    margin-top: 20px;
+    margin-bottom: 97px;
+    font-size: 20px; }
+  .seguros a {
+    text-decoration: none;
+    background-color: #111499;
+    padding: 10px;
     color: white;
-}
+    border-radius: 10px; }
+    .seguros a:hover {
+      background-color: rgba(21, 21, 252, 0.671);
+      color: white; }
 
-.navegacion-all1 ul :hover {
-
-
-    text-decoration: overline;
-
-    transform: scale(1.5);
-}
-
-.carousel {
-
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-
-
-/*--------Contenedor pages centro de ayuda--------*/
-.centro-de-ayuda-contenedor {
-    margin-top: 50px;
+@media screen and (max-width: 2900) {
+  .grid-contenedor-section {
     display: flex;
-
+    justify-content: space-between;
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    grid-template-areas:
-
-        "c1 b1"
-        "c2 b2"
-        "c3 b3"
-        "c4 b4"
-        "c5 b5"
-}
-
-.progress {
-    margin-top: 0px;
-    grid-area: b1;
-}
-
-.c1 {
-    margin: 0px;
-    grid-area: c1;
-}
-
-.b2 {
-    grid-area: b2;
-}
-
-.c2 {
-    grid-area: c2;
-}
-
-.b3 {
-    grid-area: b3;
-}
-
-.c3 {
-    grid-area: c3;
-}
-
-.b4 {
-    grid-area: b4;
-}
-
-.c4 {
-    grid-area: c4;
-}
-
-.b5 {
-    grid-area: b5;
-}
-
-.c5 {
-    grid-area: c5;
-}
-
-.imgcentrodeayuda {
-    margin-bottom: 200px;
-}
-
-.grid-footer-centro-de-ayuda .c5 {
-    text-align: start;
-    grid-area: c5;
-}
-
-.imgcentrodeayuda {
-    margin-bottom: 200px;
-}
-
-.grid-footer-centro-de-ayuda {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-template-areas:
-        "c d"
-        "a b"
-    ;
-}
-
-.redes-texto-blanco {
-    grid-area: d;
-}
-
-.redes-texto {
-    margin-left: 15px;
-    margin-top: 15px;
-    grid-area: c;
-}
-
-.redes {
-    margin-top: 10px;
-    grid-area: a;
-}
-
-.llamada-banco {
-    grid-area: b;
-}
-
-/*-------Inicio grilla pages tarjetas--------*/
-
-.grid-contenedor-tarjetas {
-    display: grid;
-    column-gap: 60px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 190px 150px 140px 135px 145px 140px 140px 180px;
-    grid-template-areas:
-        "tl1 tc1 tr1"
-        "tl2 tc2 tr2"
-        "tl3 tc3 tr3"
-        "tl4 tc4 tr4"
-        "tl5 tc5"
-        "tl6 tc6"
-        "tl7 tr7"
-        "tl8 tr8"
-    ;
-}
-
-.tl1 {
-    grid-area: tl1;
-}
-
-.tc1 {
-    grid-area: tc1;
-}
-
-.tr1 {
-    grid-area: tr1;
-}
-
-.tl2 {
-    grid-area: tl2;
-}
-
-.tc2 {
-    grid-area: tc2;
-}
-
-.tr2 {
-    grid-area: tr2;
-}
-
-.tl3 {
-    grid-area: tl3;
-}
-
-.tc3 {
-    grid-area: tc3;
-}
-
-.tr3 {
-    grid-area: tr3;
-}
-
-.tl4 {
-    grid-area: tl4;
-}
-
-.tc4 {
-    grid-area: tc4;
-}
-
-.tr4 {
-    grid-area: tr4;
-}
-
-.tl5 {
-    grid-area: tl5;
-}
-
-.tc5 {
-    grid-area: tc5;
-}
-
-.tl6 {
-
-    grid-area: tl6;
-}
-
-.tc6 {
-    grid-area: tc6;
-}
-
-.tl7 {
-
-    grid-area: tl7;
-}
-
-.tl8 {
-
-    grid-area: tl8;
-}
-
-/*--------Habilito grid pages cuentas-------*/
-.grid-contenedor-cuentas {
-    display: grid;
-    column-gap: 60px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 190px 150px 140px 135px 145px 140px 140px 180px;
-    grid-template-areas:
-        "tl1 tc1 tr1"
-        "tl2 tc2 tr2"
-        "tl3 tc3 tr3"
-        "tl4 tc4 tr4"
-        "tl5 tc5"
-        "tl6 tc6"
-        "tl7 tr7"
-        "tl8 tr8"
-    ;
-}
-
-.tl1 {
-    grid-area: tl1;
-}
-
-.tc1 {
-    grid-area: tc1;
-}
-
-.tr1 {
-    grid-area: tr1;
-}
-
-.tl2 {
-    grid-area: tl2;
-}
-
-.tc2 {
-    grid-area: tc2;
-}
-
-.tr2 {
-    grid-area: tr2;
-}
-
-.tl3 {
-    grid-area: tl3;
-}
-
-.tc3 {
-    grid-area: tc3;
-}
-
-.tr3 {
-    grid-area: tr3;
-}
-
-.tl4 {
-    grid-area: tl4;
-}
-
-.tc4 {
-    grid-area: tc4;
-}
-
-.tr4 {
-    grid-area: tr4;
-}
-
-.tl5 {
-    grid-area: tl5;
-}
-
-.tc5 {
-    grid-area: tc5;
-}
-
-.tl6 {
-    grid-area: tl6;
-}
-
-.tc6 {
-    grid-area: tc6;
-}
-
-.tl7 {
-    grid-area: tl7;
-}
-
-.tl8 {
-    grid-area: tl8;
-}
-
-/*-----HABILITO GRILLA PAGES PRESTRAMOS-------*/
-.grid-contenedor-prestamos {
-    display: grid;
-    column-gap: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 350px;
-    grid-template-areas:
-        "a b c"
-    ;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-.prestamo-personal {
-    grid-area: a;
-    text-align: center;
-}
-
-.prestamo-hipotecario {
-    grid-area: b;
-    text-align: center;
-}
-
-.prestamo-prendario {
-    grid-area: c;
-    text-align: center;
-}
-
-.p-personal1 {
-    margin-top: 10px;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.p-personal2 {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.p-hipotecario1 {
-    margin-top: 10px;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.p-hipotecario2 {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.p-prendario1 {
-    margin-top: 10px;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.p-prendario2 {
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.border-personal {
-    border: solid rgba(49, 26, 179, 0.829);
-    border-width: 8px;
-    border-radius: 30px;
-}
-
-.border-hipotecario {
-    border: solid rgba(49, 26, 179, 0.829);
-    border-width: 8px;
-    border-radius: 30px;
-}
-
-.border-prendario {
-    border: solid rgba(49, 26, 179, 0.829);
-    border-width: 8px;
-    border-radius: 30px;
-}
-
-.online-contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.online-contenedor-icono {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px 100px;
-    grid-template-areas:
-        "a"
-        "b"
-    ;
-    margin-bottom: 30px;
-}
-
-.img-online {
-    grid-area: a;
-    text-align: center;
-}
-
-.p-online {
-    grid-area: b;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.online-h2 {
-    border: solid cornflowerblue;
-    border-radius: 30px;
-}
-
-/*----CONTENEDOR PAGES HACETE CLIENTE------*/
-.contenedor-hacete-cliente {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 20px auto;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black;
-}
-
-.contenedor-hacete-cliente img {
-    width: 100%;
-    height: 100%;
-}
-
-.p-cliente-all :hover {
-
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 1) 0%, rgba(0, 121, 255, 0.9304096638655462) 28%);
-}
-
-.p-cliente1 {
-    border-radius: 30px;
-    background-color: rgb(31, 101, 192);
-    text-align: center;
-    font-size: 2.5rem;
-    color: white;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.p-cliente2 {
-    border-radius: 30px;
-    background-color: rgb(31, 101, 192);
-    text-align: center;
-    font-size: 2rem;
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.p-cliente3 {
-    border-radius: 30px;
-    background-color: rgb(31, 101, 192);
-    text-align: center;
-    font-size: 2rem;
-    color: white;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.p-cliente4 {
-    border-radius: 30px;
-    background-color: rgb(31, 101, 192);
-    text-align: center;
-    font-size: 2.2rem;
-    color: white;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/*----inicio media queries----*/
-@media screen and (max-width: 2900px) {
-    .contenedor-hacete-cliente p {
-        font-size: 2rem;
-    }
-
-    .contenedor-hacete-cliente .p-cliente1 {
-        font-size: 2.5rem;
-    }
-
-    .grid-contenedor-prestamos img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .grid-contenedor-tarjetas {
-
-        border: solid 10px white;
-    }
-
-    .tarjetas-imagen {
-        background-color: rgb(10, 33, 241);
-        border-style: solid 5px blue;
-        color: white;
-    }
-
-    .tarjetas-imagen :hover {
-        transform: scale(1.2);
-    }
-
-    .tarjetas-imagen h2 {
-        background-color: white;
-        color: blue;
-    }
-
-    .tarjetas-imagen p {
-        color: white;
-    }
-
-    .tarjetas-imagen div {
-        text-align: center;
-        background-color: #86aad3;
-    }
-
-    .tarjetas-imagen2 {
-        background-color: rgb(10, 33, 241);
-    }
-
-    .tarjetas-imagen2 :hover {
-        transform: scale(1.2);
-    }
-
-    .tarjetas-imagen2 h2 {
-        background-color: white;
-        color: blue;
-    }
-
-    .tarjetas-imagen2 p {
-        color: white;
-    }
-
-    .tarjetas-imagen2 div {
-        background-color: #86aad3;
-        text-align: center;
-    }
-
-    .tarjetas-imagen3 {
-        background-color: rgb(10, 33, 241);
-    }
-
-    .tarjetas-imagen3 :hover {
-        transform: scale(1.2);
-    }
-
-    .tarjetas-imagen3 h2 {
-        background-color: white;
-        color: blue;
-    }
-
-    .tarjetas-imagen3 p {
-        color: white;
-    }
-
-    .tarjetas-imagen3 div {
-        background-color: #86aad3;
-        text-align: center;
-    }
-
-    .tarjetas-imagen img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .tarjetas-imagen2 img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .tarjetas-imagen3 img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .grid-contenedor-cuentas {
-        border: solid 10px white;
-    }
-
-    .cuentas-imagen {
-        background-color: #efb810;
-        border-style: solid 5px blue;
-        color: white;
-    }
-
-    .cuentas-imagen :hover {
-        transform: scale(1.2);
-    }
-
-    .cuentas-imagen h2 {
-        background-color: white;
-        color: blue;
-    }
-
-    .cuentas-imagen p {
-        color: black;
-    }
-
-    .cuentas-imagen div {
-        text-align: center;
-        background-color: aliceblue;
-    }
-
-    .cuentas-imagen2 {
-        background-color: #b0b8b9;
-    }
-
-    .cuentas-imagen2 :hover {
-        transform: scale(1.2);
-    }
-
-    .cuentas-imagen2 h2 {
-        background-color: white;
-        color: blue;
-    }
-
-    .cuentas-imagen2 p {
-        color: black;
-    }
-
-    .cuentas-imagen2 div {
-        background-color: aliceblue;
-        text-align: center;
-    }
-
-    .cuentas-imagen3 {
-        background-color: #e07f1f;
-    }
-
-    .cuentas-imagen3 :hover {
-        transform: scale(1.2);
-    }
-
-    .cuentas-imagen3 h2 {
-        background-color: white;
-        color: blue;
-    }
-
-    .cuentas-imagen3 p {
-        color: black;
-    }
-
-    .cuentas-imagen3 div {
-        background-color: aliceblue;
-        text-align: center;
-    }
-
-    .cuentas-imagen img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .cuentas-imagen2 img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .cuentas-imagen3 img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .online-contenedor-icono img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .grid-contenedor-section {
-        display: flex;
-        justify-content: space-between;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 400px 400px 400px;
-        background-color: white;
-        grid-template-areas:
-
-            "a b c"
-            "d e f"
-        ;
-    }
-
-    .creditohipotecario {
-        grid-area: a;
-    }
-
-    .tarjetas {
-        grid-area: b;
-    }
-
-    .cuentasueldo {
-        grid-area: c;
-    }
-
-    .cuentaonline {
-        margin-top: 300px;
-        grid-area: d;
-    }
-
-    .beneficios {
-        margin-top: 300px;
-        grid-area: e;
-    }
-
-    .seguros {
-        margin-top: 300px;
-        grid-area: f;
-    }
-
+    grid-template-rows: 400px 400px 400px;
+    background-color: white;
+    grid-template-areas: "a b c" "d e f"; }
     .grid-contenedor-section img {
-        height: 250px;
-        width: 350px;
-    }
-
-    .grid-contenedor-section p {
-        text-align: center;
-    }
-
-    .grid-contenedor-principal {
-        background-color: rgb(12, 14, 105);
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 200px;
-        grid-template-areas:
-            "nav header navv"
-        ;
-    }
-
-    .encabezado {
-        grid-area: header;
-    }
-
-    .navl ul {
-        grid-area: nav;
-    }
-
-    .navr ul {
-        grid-area: navv;
-    }
-}
+      height: 250px;
+      width: 350px; }
+    .grid-contenedor-section .p {
+      text-align: center; }
+    .grid-contenedor-section .creditohipotecario {
+      grid-area: a; }
+    .grid-contenedor-section .tarjetas {
+      grid-area: b; }
+    .grid-contenedor-section .cuentasueldo {
+      grid-area: c; }
+    .grid-contenedor-section .cuentaonline {
+      margin-top: 300px;
+      grid-area: d; }
+    .grid-contenedor-section .beneficios {
+      margin-top: 300px;
+      grid-area: e; }
+    .grid-contenedor-section .seguros {
+      margin-top: 300px;
+      grid-area: f; } }
 
 @media screen and (max-width: 2000px) {
-    .grid-contenedor-section {
-        display: flex;
-        justify-content: space-between;
-        display: grid;
-        grid-template-columns: 1fr 0.5fr;
-        grid-template-rows: 600px 600px 600px;
-        background-color: white;
-        grid-template-areas:
-            "a b"
-            "c d"
-            "e f"
-        ;
-    }
-
-    .creditohipotecario {
-        width: 600px;
-        height: 400px;
-        grid-area: a;
-    }
-
-    .tarjetas {
-        width: 600px;
-        height: 400px;
-        margin-top: 43px;
-        margin-left: 0px;
-        grid-area: b;
-    }
-
-    .cuentasueldo {
-        width: 600px;
-        height: 400px;
-        margin: 0px;
-        grid-area: c;
-    }
-
-    .cuentaonline {
-        width: 600px;
-        height: 400px;
-        margin: 0px;
-        grid-area: d;
-    }
-
-    .beneficios {
-        margin: 0px;
-        grid-area: e;
-    }
-
-    .seguros {
-        margin: 0px;
-        grid-area: f;
-    }
-
+  .grid-contenedor-section {
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 600px 600px 600px;
+    background-color: white;
+    grid-template-areas: "a b" "c d" "e f"; }
     .grid-contenedor-section img {
-        height: 250px;
-        width: 350px;
-    }
-
+      height: 250px;
+      width: 350px; }
     .grid-contenedor-section p {
-        text-align: center;
-    }
-
-    .grid-contenedor-principal {
-        background-color: rgb(12, 14, 105);
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 200px;
-        grid-template-areas:
-            "nav header navv"
-        ;
-    }
-
-    .encabezado {
-        grid-area: header;
-    }
-
-    .navl ul {
-        grid-area: nav;
-    }
-
-    .navr ul {
-        grid-area: navv;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .grid-contenedor-principal {
-        background-color: rgb(12, 14, 105);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 200px 90px;
-        grid-template-areas:
-            "nav header"
-            "navv navv"
-        ;
-    }
-
-    .encabezado {
-        grid-area: header;
-    }
-
-    .navl {
-        display: flex;
-    }
-
-    .navl ul {
-        grid-area: nav;
-    }
-
-    .navr {
-        display: flex;
-    }
-
-    .navr ul {
-        grid-area: navv;
-    }
-
-    .navr ul li {
-        margin: 0px;
-    }
-
-    .grid-contenedor-section {
-        display: flex;
-        align-items: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 450px 450px 450px;
-        background-color: white;
-        grid-template-areas:
-            "a b"
-            "c d"
-            "e f"
-        ;
-    }
-
-    .creditohipotecario {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: a;
-    }
-
-    .tarjetas {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: b;
-    }
-
-    .cuentasueldo {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: c;
-    }
-
-    .cuentaonline {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: d;
-    }
-
-    .beneficios {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: e;
-    }
-
-    .seguros {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: f;
-    }
-
-    .grid-contenedor-section img {
-        height: 220px;
-        width: 280px;
-    }
-
-    .grid-contenedor-section p {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    .contenedor-hacete-cliente {
-        width: 1000px;
-        height: 500px;
-    }
-
-    .contenedor-hacete-cliente P {
-        font-size: 25px;
-    }
-
-    .grid-contenedor-tarjetas {
-        display: grid;
-        margin-bottom: 50px;
-        column-gap: 60px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 190px 150px 140px 135px 145px 140px 140px 180px 200px 200px;
-        grid-template-areas:
-            "tl1 tc1 tr1"
-            "tl2 tc2 tr2"
-            "tl3 tc3 tr3"
-            "tl4 tc4 tr4"
-            "tl5 tc5"
-            "tl6 tc6"
-            "tl7 tr7"
-            "tl8 tr8"
-            "tl9 tr9"
-            "tl10 tr10"
-        ;
-    }
-
-    .tl1 {
-        grid-area: tl1;
-    }
-
-    .tc1 {
-        grid-area: tc1;
-    }
-
-    .tr1 {
-        grid-area: tr1;
-    }
-
-    .tl2 {
-        grid-area: tl2;
-    }
-
-    .tc2 {
-        grid-area: tc2;
-    }
-
-    .tr2 {
-        grid-area: tr2;
-    }
-
-    .tl3 {
-        grid-area: tl3;
-    }
-
-    .tc3 {
-        grid-area: tc3;
-    }
-
-    .tr3 {
-        grid-area: tr3;
-    }
-
-    .tl4 {
-        grid-area: tl4;
-    }
-
-    .tc4 {
-        grid-area: tc4;
-    }
-
-    .tr4 {
-        grid-area: tr4;
-    }
-
-    .tl5 {
-        grid-area: tl5;
-    }
-
-    .tc5 {
-        grid-area: tc5;
-    }
-
-    .tl6 {
-        grid-area: tl6;
-    }
-
-    .tc6 {
-        grid-area: tc6;
-    }
-
-    .tl7 {
-        grid-area: tl7;
-    }
-
-    .tl8 {
-        grid-area: tl8;
-    }
-
-    .grid-contenedor-section {
-        display: flex;
-        align-items: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 600px 600px 600px 600px 600px 600px;
-        background-color: white;
-        grid-template-areas:
-            "a"
-            "b"
-            "c"
-            "d"
-            "e"
-            "f"
-        ;
-    }
-
-    .creditohipotecario {
-        width: 500px;
-        height: 400px;
-        grid-area: a;
-    }
-
-    .tarjetas {
-        width: 500px;
-        height: 400px;
-        margin-top: 43px;
-        margin-left: 0px;
-        grid-area: b;
-    }
-
-    .cuentasueldo {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: c;
-    }
-
-    .cuentaonline {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: d;
-    }
-
-    .beneficios {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: e;
-    }
-
-    .seguros {
-        width: 500px;
-        height: 400px;
-        margin: 0px;
-        grid-area: f;
-    }
-
-    .grid-contenedor-section img {
-        height: 250px;
-        width: 350px;
-    }
-
-    .grid-contenedor-section p {
-        text-align: center;
-    }
-
-    .nav-inicio ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .centro-de-ayuda-contenedor {
-        margin-bottom: 100px;
-        margin-top: 200px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 100px 100px 100px;
-        grid-template-areas:
-            "c1 b1"
-            "c2 b2"
-            "c3 b3"
-            "c4 b4"
-            "c5 b5"
-    }
-
-    .progress {
-        margin-top: 7px;
-        grid-area: b1;
-    }
-
-    .c1 {
-        margin: 0px;
-        text-align: start;
-        grid-area: c1;
-    }
-
-    .b2 {
-        grid-area: b2;
-    }
-
-    .c2 {
-        text-align: start;
-        grid-area: c2;
-    }
-
-    .b3 {
-        grid-area: b3;
-    }
-
-    .c3 {
-        text-align: start;
-        grid-area: c3;
-    }
-
-    .b4 {
-        grid-area: b4;
-    }
-
-    .c4 {
-        text-align: start;
-        grid-area: c4;
-    }
-
-    .b5 {
-        grid-area: b5;
-    }
-
-    .c5 {
-        text-align: start;
-        grid-area: c5;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .grid-contenedor-prestamos p {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 630px) {
-    .grid-contenedor-tarjetas {
-        margin-bottom: 200px;
-    }
-}
-
-@media screen and (max-width: 538px) {
-    .grid-contenedor-tarjetas {
-        margin-bottom: 250px;
-    }
-
-    .iframe {
-        width: 350px;
-        height: 350px;
-    }
-
-    .grid-contenedor-principal {
-        display: flex;
-        align-items: center;
-        background-color: rgb(12, 14, 105);
-    }
-
-    .grid-contenedor-section {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 650px 650px 650px 650px 650px 650px;
-        background-color: whitesmoke;
-        grid-template-areas:
-            "a"
-            "b"
-            "c"
-            "d"
-            "e"
-            "f"
-        ;
-    }
-
-    .creditohipotecario {
-        width: 260px;
-        height: 450px;
-        grid-area: a;
-        margin-bottom: 25px;
-    }
-
-    .tarjetas {
-        width: 260px;
-        height: 380px;
-        margin-top: 70px;
-        grid-area: b;
-    }
-
-    .cuentasueldo {
-        width: 260px;
-        height: 400px;
-        grid-area: c;
-    }
-
-    .cuentaonline {
-        width: 260px;
-        height: 400px;
-        margin: 0px;
-        grid-area: d;
-    }
-
-    .beneficios {
-        width: 260px;
-        height: 400px;
-        margin: 0px;
-        grid-area: e;
-    }
-
-    .seguros {
-        width: 260px;
-        height: 400px;
-        margin-bottom: 0px;
-        grid-area: f;
-    }
-
-    .grid-contenedor-section img {
-        height: 200px;
-        width: 250px;
-    }
-
-    .grid-contenedor-section p {
-        text-align: center;
-    }
-
-    .nav-inicio ul {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .grid-contenedor-section {
-        display: flex;
-        align-items: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 450px 450px 450px 450px 450px 450px;
-        background-color: white;
-        grid-template-areas:
-            "a"
-            "b"
-            "c"
-            "d"
-            "e"
-            "f"
-        ;
-    }
-
-    .creditohipotecario {
-        width: 300px;
-        height: 200px;
-        grid-area: a;
-    }
-
-    .tarjetas {
-        width: 300px;
-        height: 200px;
-        margin-top: 43px;
-        margin-left: 0px;
-        grid-area: b;
-    }
-
-    .cuentasueldo {
-        width: 300px;
-        height: 200px;
-        margin: 0px;
-        grid-area: c;
-    }
-
-    .cuentaonline {
-        width: 300px;
-        height: 200px;
-        margin: 0px;
-        grid-area: d;
-    }
-
-    .beneficios {
-        width: 300px;
-        height: 200px;
-        margin: 0px;
-        grid-area: e;
-    }
-
-    .seguros {
-        width: 300px;
-        height: 200px;
-        margin: 0px;
-        grid-area: f;
-    }
-
-    .grid-contenedor-section img {
-        height: 150px;
-        width: 250px;
-    }
-
-    .grid-contenedor-section p {
-        text-align: center;
-    }
-
-    .nav-inicio ul {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+      text-align: center; }
+    .grid-contenedor-section .creditohipotecario {
+      width: 600px;
+      height: 400px;
+      grid-area: a; }
+    .grid-contenedor-section .tarjetas {
+      width: 600px;
+      height: 400px;
+      margin-top: 43px;
+      margin-left: 0px;
+      grid-area: b; }
+    .grid-contenedor-section .cuentasueldo {
+      width: 600px;
+      height: 400px;
+      margin: 0px;
+      grid-area: c; }
+    .grid-contenedor-section .cuentaonline {
+      width: 600px;
+      height: 400px;
+      margin: 0px;
+      grid-area: d; }
+    .grid-contenedor-section .beneficios {
+      margin: 0px;
+      grid-area: e; }
+    .grid-contenedor-section .seguros {
+      margin: 0px;
+      grid-area: f; } }
+
+.redes img {
+  width: 50px;
+  height: 50px;
+  margin-right: 25px; }
+
+.redes :hover {
+  transform: scale(1.2); }

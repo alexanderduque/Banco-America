@@ -1,0 +1,333 @@
+.nav-inicio {
+
+    transition: 5s;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        list-style: none;
+
+        li {
+            margin: 20px 0px 50px 0px;
+
+            &:hover {
+                text-decoration: overline;
+                transform: scale(1.5);
+            }
+
+            a {
+                text-decoration: none;
+                color: rgba(32, 109, 172, 0.925);
+                background-color: rgba(245, 245, 245, 0.918);
+                padding: 12px;
+                font-size: 15px;
+                font-weight: 900px;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+.logo-banco {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: rgb(22, 25, 170);
+}
+
+.grid-contenedor-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px;
+    background-color: white;
+    grid-template-areas:
+
+        "a b c"
+        "d e f"
+    ;
+}
+
+.creditohipotecario {
+    grid-area: a;
+}
+
+.tarjetas {
+    grid-area: b;
+}
+
+.cuentasueldo {
+    grid-area: c;
+}
+
+.cuentaonline {
+    margin-top: 300px;
+    grid-area: d;
+}
+
+.beneficios {
+    margin-top: 300px;
+    grid-area: e;
+}
+
+.seguros {
+    margin-top: 300px;
+    grid-area: f;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+}
+
+p {
+    text-align: center;
+}
+
+.creditohipotecario {
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-right: 20px;
+
+    img {
+
+        width: 320px;
+        height: 200px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: rgb(17, 20, 153);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: rgba(21, 21, 252, 0.671);
+            color: white;
+        }
+
+    }
+}
+
+.tarjetas {
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+    margin-left: 19px;
+    margin-top: 40px;
+
+    img {
+        width: 340px;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 67px;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: rgb(17, 20, 153);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+
+        &:hover {
+
+            background-color: rgba(21, 21, 252, 0.671);
+            color: white;
+        }
+    }
+}
+
+.cuentasueldo {
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 42px;
+
+    img {
+        width: 330px;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 65px;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: rgb(17, 20, 153);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+
+        &hover {
+
+            background-color: rgba(21, 21, 252, 0.671);
+            color: white;
+        }
+
+    }
+}
+
+.cuentaonline {
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+
+    img {
+        width: 350px;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 97px;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: rgb(17, 20, 153);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+
+        &:hover {
+
+            background-color: rgba(21, 21, 252, 0.671);
+            color: white;
+        }
+
+    }
+}
+
+.beneficios {
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-right: 20px;
+
+    img {
+        width: 330px;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 97px;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: rgb(17, 20, 153);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+
+        &:hover {
+
+            background-color: rgba(21, 21, 252, 0.671);
+            color: white;
+        }
+    }
+}
+
+.seguros {
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+
+    img {
+        width: 330px;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 97px;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: rgb(17, 20, 153);
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+
+        &:hover {
+
+            background-color: rgba(21, 21, 252, 0.671);
+            color: white;
+        }
+    }
+}
