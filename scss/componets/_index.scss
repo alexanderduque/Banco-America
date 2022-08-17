@@ -1,3 +1,5 @@
+@import "../base/maps";
+@import "../base/mixins.scss";
 .nav-inicio {
 
     transition: 5s;
@@ -9,7 +11,7 @@
         list-style: none;
 
         li {
-            margin: 20px 0px 50px 0px;
+            margin: 20px 0px 10px 0px;
 
             &:hover {
                 text-decoration: overline;
@@ -17,13 +19,12 @@
             }
 
             a {
-                text-decoration: none;
-                color: rgba(32, 109, 172, 0.925);
-                background-color: rgba(245, 245, 245, 0.918);
-                padding: 12px;
-                font-size: 15px;
-                font-weight: 900px;
-                border-radius: 30px;
+                text-decoration: map-get($boton-index , text-decoration );
+                color: map-get($boton-index , color );
+                background-color: map-get($boton-index , bg-boton );
+                padding: map-get($boton-index , padding );
+                font-size: map-get($boton-index , size );
+                border-radius: map-get($boton-index , border);
             }
         }
     }
@@ -31,12 +32,12 @@
 
 .logo-banco {
     img {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
     }
 }
 
-h2 {
+h1 {
     margin-top: 50px;
     margin-bottom: 15px;
     text-align: center;
@@ -46,10 +47,8 @@ h2 {
 }
 
 .grid-contenedor-section {
-    display: flex;
+    @include flex(flex, grid, space-between );
     flex-wrap: wrap;
-    justify-content: space-between;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 400px 400px 400px;
     background-color: white;
@@ -130,8 +129,7 @@ p {
         border-radius: 10px;
 
         &:hover {
-            background-color: rgba(21, 21, 252, 0.671);
-            color: white;
+            @extend %bg;
         }
 
     }
@@ -169,8 +167,7 @@ p {
 
         &:hover {
 
-            background-color: rgba(21, 21, 252, 0.671);
-            color: white;
+            @extend %bg;
         }
     }
 }
@@ -205,10 +202,9 @@ p {
         color: white;
         border-radius: 10px;
 
-        &hover {
+        &:hover {
 
-            background-color: rgba(21, 21, 252, 0.671);
-            color: white;
+            @extend %bg;
         }
 
     }
@@ -247,8 +243,7 @@ p {
 
         &:hover {
 
-            background-color: rgba(21, 21, 252, 0.671);
-            color: white;
+            @extend %bg;
         }
 
     }
@@ -287,8 +282,7 @@ p {
 
         &:hover {
 
-            background-color: rgba(21, 21, 252, 0.671);
-            color: white;
+            @extend %bg;
         }
     }
 }
@@ -326,8 +320,8 @@ p {
 
         &:hover {
 
-            background-color: rgba(21, 21, 252, 0.671);
-            color: white;
+            @extend %bg;
         }
     }
+    
 }

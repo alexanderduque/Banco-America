@@ -1,0 +1,6 @@
+﻿1 cambie el title del index a que tenga entre 35 y 65 caracteres
+2 defini las jerarquias h1 h2 h3 ...
+3 texto alternativo para las imágenes de carrusel en el index
+4 creación de favicon
+5 meta descripción en index
+6 meta keywords en todas las pages
