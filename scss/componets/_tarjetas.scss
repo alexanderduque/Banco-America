@@ -1,0 +1,194 @@
+.grid-contenedor-tarjetas {
+    display: grid;
+    border: solid 10px white;
+    column-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 190px 150px 140px 135px 145px 140px 140px 180px;
+    grid-template-areas:
+        "tl1 tc1 tr1"
+        "tl2 tc2 tr2"
+        "tl3 tc3 tr3"
+        "tl4 tc4 tr4"
+        "tl5 tc5"
+        "tl6 tc6"
+        "tl7 tr7"
+        "tl8 tr8"
+    ;
+
+
+    .tl1 {
+        grid-area: tl1;
+    }
+
+    .tc1 {
+        grid-area: tc1;
+    }
+
+    .tr1 {
+        grid-area: tr1;
+    }
+
+    .tl2 {
+        grid-area: tl2;
+    }
+
+    .tc2 {
+        grid-area: tc2;
+    }
+
+    .tr2 {
+        grid-area: tr2;
+    }
+
+    .tl3 {
+        grid-area: tl3;
+    }
+
+    .tc3 {
+        grid-area: tc3;
+    }
+
+    .tr3 {
+        grid-area: tr3;
+    }
+
+    .tl4 {
+        grid-area: tl4;
+    }
+
+    .tc4 {
+        grid-area: tc4;
+    }
+
+    .tr4 {
+        grid-area: tr4;
+    }
+
+    .tl5 {
+        grid-area: tl5;
+    }
+
+    .tc5 {
+        grid-area: tc5;
+    }
+
+    .tl6 {
+
+        grid-area: tl6;
+    }
+
+    .tc6 {
+        grid-area: tc6;
+    }
+
+    .tl7 {
+
+        grid-area: tl7;
+    }
+
+    .tl8 {
+
+        grid-area: tl8;
+    }
+
+
+    .tarjetas-imagen {
+        background-color: #86aad3;
+       
+
+        .tl2 {
+            background-color: rgb(10, 33, 241);
+        }
+
+        h2 {
+            background-color: white;
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+        }
+
+        div {
+
+            text-align: center;
+            background-color: #86aad3;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .tarjetas-imagen2 {
+        background-color: #86aad3;
+
+        .tc2 {
+            background-color: rgb(10, 33, 241);
+        }
+
+        h2 {
+            background-color: white;
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+        }
+
+        div {
+            background-color: #86aad3;
+            text-align: center;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .tarjetas-imagen3 {
+        background-color: #86aad3;
+
+        .tr2 {
+            background-color: rgb(10, 33, 241);
+        }
+
+
+        h2 {
+            background-color: white;
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+        }
+
+        div {
+            background-color: #86aad3;
+            text-align: center;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

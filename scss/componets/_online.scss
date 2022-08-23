@@ -1,0 +1,41 @@
+.online-h2 {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 1) 0%, rgba(0, 121, 255, 0.9304096638655462) 28%);
+    border: solid cornflowerblue;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+.online-contenedor-icono {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 100px;
+    grid-template-areas:
+        "a"
+        "b"
+    ;
+    margin-bottom: 30px;
+
+    .img-online {
+        grid-area: a;
+        text-align: center;
+    }
+
+    .p-online {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(160, 160, 160);
+        grid-area: b;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+}
+
+.online-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

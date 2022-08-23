@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="yourpath/magic.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <!--FAVICON-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -52,9 +52,6 @@
                 </form>
             </div>
         </div>
-        <div class="logo-banco">
-            <img src="./img/logo banco.jpg" alt="logo del banco">
-        </div>
     </nav>
 
     <h1 class="animate__animated animate__heartBeat"> ¡HOLA! ¿Como podemos Ayudarte hoy?</h1>
@@ -69,62 +66,57 @@
     </nav>
     <main>
         <!--CARUSEL BOOSTRAP-->
-
-        <section class="carousel">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+<section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/slide03.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bienvenido a Banco America</h5>
+                        <p></p>
+                    </div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./img/slide1.jpg" class="d-block w-100" alt="Atencion al cliente">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>BIENVENIDO</h5>
-                            <p>Tu mejor inversion junto a nosotros</p>
-                        </div>
+                <div class="carousel-item">
+                    <img src="./img/slide02.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tu Banca a un click de distancia</h5>
+                        <p></p>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./img/slide02.jpg" class="d-block w-100" alt="plataforma bancaria digital">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>BIENVENIDO</h5>
-                            <p>Tu banco a un click de distancia</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/slide03.jpg" class="d-block w-100" alt="creditos y ahorros">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>BIENVENIDO</h5>
-                            <p>Hace tus proyectos realidad junto a Banco America</p>
-                        </div>
-                    </div>
-
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-
-        </section>
+                <div class="carousel-item">
+                    <img src="./img/slide1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Estamos para darte soluciones</h5>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+    </section>
         <div class="grid-contenedor-section">
             <section class="creditohipotecario">
                 <img class="imgleft" src="./img/hipotecario.png" alt="credito hipotecario">
                 <p class="pleft">
                     Obtene un credito Hipotecario y cumplí ese sueño
-                    De tener tu casa propia a una tasa baja de interes
-                    En Banco America Estamos para ayudarte a crecer
+                    De tener tu casa propia
                 </p>
                 <a class="iconleft" href="./pages/prestamos.html">ir ahora</a>
             </section>
@@ -132,8 +124,7 @@
             <section class="tarjetas">
                 <img class="imgcenter" src="./img/tarjetas.jpg" alt="tarjetas">
                 <p class="pcenter">
-                    Saca tu tarjeta de crédito online y bonificada por
-                    1 año, empeza a disfrutar ya de sus beneficios
+                    Saca tu tarjeta de crédito online y compra en comodas cuotas.
                 </p>
                 <a class="iconcenter" href="./pages/tarjetas.html"> ir ahora</a>
             </section>
@@ -186,9 +177,8 @@
             <a href="https://www.youtube.com/"><img src="./img/youtube.png" alt="youtube"></a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>

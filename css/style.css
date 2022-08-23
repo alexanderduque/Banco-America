@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 ::before,
 ::after {
@@ -25,19 +26,18 @@
         font-size: 15px;
         border-radius: 30px; }
 
-.logo-banco img {
-  width: 50px;
-  height: 50px; }
-
 h1 {
+  background: linear-gradient(90deg, #020024 0%, #091379 0%, rgba(0, 121, 255, 0.93041) 28%);
   margin-top: 50px;
   margin-bottom: 15px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 28px;
-  color: #1619aa; }
+  color: white; }
 
 .grid-contenedor-section {
+  display: flex;
+  display: grid;
   display: flex;
   display: grid;
   justify-content: space-between;
@@ -46,189 +46,170 @@ h1 {
   grid-template-rows: 400px 400px 400px;
   background-color: white;
   grid-template-areas: "a b c" "d e f"; }
-
-.creditohipotecario {
-  grid-area: a; }
-
-.tarjetas {
-  grid-area: b; }
-
-.cuentasueldo {
-  grid-area: c; }
-
-.cuentaonline {
-  margin-top: 300px;
-  grid-area: d; }
-
-.beneficios {
-  margin-top: 300px;
-  grid-area: e; }
-
-.seguros {
-  margin-top: 300px;
-  grid-area: f; }
-
-img {
-  height: 250px;
-  width: 350px; }
-
-p {
-  text-align: center; }
-
-.creditohipotecario {
-  width: 600px;
-  height: 400px;
-  border: 1px solid gainsboro;
-  margin-bottom: 80px;
-  margin-top: 40px;
-  text-align: center;
-  border-radius: 15px;
-  background-color: aliceblue;
-  display: inline-block;
-  margin-right: 20px; }
-  .creditohipotecario img {
-    width: 320px;
-    height: 200px;
-    border-radius: 30px;
-    margin-top: 20px; }
-  .creditohipotecario p {
-    margin-top: 20px;
-    margin-bottom: 35px;
-    font-size: 20px; }
-  .creditohipotecario a {
-    text-decoration: none;
-    background-color: #111499;
-    padding: 10px;
-    color: white;
-    border-radius: 10px; }
-
-.tarjetas {
-  width: 600px;
-  height: 400px;
-  border: 1px solid gainsboro;
-  text-align: center;
-  border-radius: 15px;
-  background-color: aliceblue;
-  margin-left: 19px;
-  margin-top: 40px; }
-  .tarjetas img {
-    width: 340px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px; }
-  .tarjetas p {
-    margin-top: 20px;
-    margin-bottom: 67px;
-    font-size: 20px; }
-  .tarjetas a {
-    text-decoration: none;
-    background-color: #111499;
-    padding: 10px;
-    color: white;
-    border-radius: 10px; }
-
-.cuentasueldo {
-  width: 600px;
-  height: 400px;
-  border: 1px solid gainsboro;
-  text-align: center;
-  display: inline-block;
-  background-color: aliceblue;
-  border-radius: 15px;
-  margin-top: 42px; }
-  .cuentasueldo img {
-    width: 330px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px; }
-  .cuentasueldo p {
-    margin-top: 20px;
-    margin-bottom: 65px;
-    font-size: 20px; }
-  .cuentasueldo a {
-    text-decoration: none;
-    background-color: #111499;
-    padding: 10px;
-    color: white;
-    border-radius: 10px; }
-
-.cuentaonline {
-  width: 600px;
-  height: 400px;
-  border: 1px solid gainsboro;
-  margin-bottom: 20px;
-  text-align: center;
-  display: inline-block;
-  background-color: aliceblue;
-  border-radius: 15px; }
-  .cuentaonline img {
-    width: 350px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px; }
-  .cuentaonline p {
-    margin-top: 20px;
-    margin-bottom: 97px;
-    font-size: 20px; }
-  .cuentaonline a {
-    text-decoration: none;
-    background-color: #111499;
-    padding: 10px;
-    color: white;
-    border-radius: 10px; }
-
-.beneficios {
-  width: 600px;
-  height: 400px;
-  border: 1px solid gainsboro;
-  margin-bottom: 20px;
-  text-align: center;
-  display: inline-block;
-  background-color: aliceblue;
-  border-radius: 15px;
-  margin-right: 20px; }
-  .beneficios img {
-    width: 330px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px; }
-  .beneficios p {
-    margin-top: 20px;
-    margin-bottom: 97px;
-    font-size: 20px; }
-  .beneficios a {
-    text-decoration: none;
-    background-color: #111499;
-    padding: 10px;
-    color: white;
-    border-radius: 10px; }
-
-.seguros {
-  width: 600px;
-  height: 400px;
-  border: 1px solid gainsboro;
-  margin-bottom: 20px;
-  text-align: center;
-  display: inline-block;
-  background-color: aliceblue;
-  border-radius: 15px; }
-  .seguros img {
-    width: 330px;
-    height: 200px;
-    margin-top: 20px;
-    border-radius: 30px; }
-  .seguros p {
-    margin-top: 20px;
-    margin-bottom: 97px;
-    font-size: 20px; }
-  .seguros a {
-    text-decoration: none;
-    background-color: #111499;
-    padding: 10px;
-    color: white;
-    border-radius: 10px; }
+  .grid-contenedor-section img {
+    height: 250px;
+    width: 350px; }
+  .grid-contenedor-section p {
+    text-align: center; }
+  .grid-contenedor-section .creditohipotecario {
+    grid-area: a;
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: inline-block; }
+    .grid-contenedor-section .creditohipotecario img {
+      width: 320px;
+      height: 200px;
+      border-radius: 30px;
+      margin-top: 20px; }
+    .grid-contenedor-section .creditohipotecario p {
+      margin-top: 20px;
+      margin-bottom: 67px;
+      font-size: 20px; }
+    .grid-contenedor-section .creditohipotecario a {
+      text-decoration: none;
+      background-color: #111499;
+      padding: 10px;
+      color: white;
+      border-radius: 10px; }
+  .grid-contenedor-section .tarjetas {
+    justify-items: end;
+    align-items: end;
+    grid-area: b;
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+    margin-top: 40px; }
+    .grid-contenedor-section .tarjetas img {
+      width: 340px;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 30px; }
+    .grid-contenedor-section .tarjetas p {
+      margin-top: 20px;
+      margin-bottom: 67px;
+      font-size: 20px; }
+    .grid-contenedor-section .tarjetas a {
+      text-decoration: none;
+      background-color: #111499;
+      padding: 10px;
+      color: white;
+      border-radius: 10px; }
+  .grid-contenedor-section .cuentasueldo {
+    grid-area: c;
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 42px; }
+    .grid-contenedor-section .cuentasueldo img {
+      width: 330px;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 30px; }
+    .grid-contenedor-section .cuentasueldo p {
+      margin-top: 20px;
+      margin-bottom: 65px;
+      font-size: 20px; }
+    .grid-contenedor-section .cuentasueldo a {
+      text-decoration: none;
+      background-color: #111499;
+      padding: 10px;
+      color: white;
+      border-radius: 10px; }
+  .grid-contenedor-section .cuentaonline {
+    margin-top: 300px;
+    grid-area: d;
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px; }
+    .grid-contenedor-section .cuentaonline img {
+      width: 350px;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 30px; }
+    .grid-contenedor-section .cuentaonline p {
+      margin-top: 20px;
+      margin-bottom: 97px;
+      font-size: 20px; }
+    .grid-contenedor-section .cuentaonline a {
+      text-decoration: none;
+      background-color: #111499;
+      padding: 10px;
+      color: white;
+      border-radius: 10px; }
+  .grid-contenedor-section .beneficios {
+    margin-top: 300px;
+    grid-area: e;
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-right: 20px; }
+    .grid-contenedor-section .beneficios img {
+      width: 330px;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 30px; }
+    .grid-contenedor-section .beneficios p {
+      margin-top: 20px;
+      margin-bottom: 97px;
+      font-size: 20px; }
+    .grid-contenedor-section .beneficios a {
+      text-decoration: none;
+      background-color: #111499;
+      padding: 10px;
+      color: white;
+      border-radius: 10px; }
+  .grid-contenedor-section .seguros {
+    margin-top: 300px;
+    grid-area: f;
+    width: 600px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 15px; }
+    .grid-contenedor-section .seguros img {
+      width: 330px;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 30px; }
+    .grid-contenedor-section .seguros p {
+      margin-top: 20px;
+      margin-bottom: 97px;
+      font-size: 20px; }
+    .grid-contenedor-section .seguros a {
+      text-decoration: none;
+      background-color: #111499;
+      padding: 10px;
+      color: white;
+      border-radius: 10px; }
 
 @media screen and (max-width: 2900) {
+  /*-----pages index-----*/
   .grid-contenedor-section {
     display: flex;
     justify-content: space-between;
@@ -258,12 +239,15 @@ p {
       margin-top: 300px;
       grid-area: f; } }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2500px) {
+  /*-----pages index-----*/
   .grid-contenedor-section {
     display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
     justify-content: space-between;
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px 600px 600px;
     background-color: white;
     grid-template-areas: "a b" "c d" "e f"; }
@@ -275,12 +259,12 @@ p {
     .grid-contenedor-section .creditohipotecario {
       width: 600px;
       height: 400px;
+      margin-top: 40px;
       grid-area: a; }
     .grid-contenedor-section .tarjetas {
       width: 600px;
       height: 400px;
-      margin-top: 43px;
-      margin-left: 0px;
+      margin-top: 40px;
       grid-area: b; }
     .grid-contenedor-section .cuentasueldo {
       width: 600px;
@@ -299,6 +283,355 @@ p {
       margin: 0px;
       grid-area: f; } }
 
+@media screen and (min-width: 1650px) {
+  /*-----pages centro de ayuda-----*/
+  /*-----cambio tamaño de imagen-----*/
+  .img-centro-de-ayuda img {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (max-width: 1450px) {
+  /*-----pages index-----*/
+  .grid-contenedor-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px 600px;
+    background-color: white;
+    grid-template-areas: "a b" "c d" "e f"; }
+    .grid-contenedor-section img {
+      height: 250px;
+      width: 350px; }
+    .grid-contenedor-section p {
+      text-align: center; }
+    .grid-contenedor-section .creditohipotecario {
+      width: 600px;
+      height: 400px;
+      margin-top: 40px;
+      grid-area: a; }
+    .grid-contenedor-section .tarjetas {
+      width: 600px;
+      height: 400px;
+      margin-top: 40px;
+      grid-area: b; }
+    .grid-contenedor-section .cuentasueldo {
+      width: 600px;
+      height: 400px;
+      margin: 0px;
+      grid-area: c; }
+    .grid-contenedor-section .cuentaonline {
+      width: 600px;
+      height: 400px;
+      margin: 0px;
+      grid-area: d; }
+    .grid-contenedor-section .beneficios {
+      margin: 0px;
+      grid-area: e; }
+    .grid-contenedor-section .seguros {
+      margin: 0px;
+      grid-area: f; } }
+
+@media screen and (max-width: 1250px) {
+  /*-----pages centro de ayuda-----*/
+  /*-----Cambio tamaño a las letras-----*/
+  .centro-de-ayuda-contenedor .c1 {
+    font-size: 20px; }
+  .centro-de-ayuda-contenedor .c2 {
+    font-size: 20px; }
+  .centro-de-ayuda-contenedor .c3 {
+    font-size: 20px; }
+  .centro-de-ayuda-contenedor .c4 {
+    font-size: 20px; }
+  .centro-de-ayuda-contenedor .c5 {
+    font-size: 20px; }
+  /*-----pages centro de ayuda-----*/
+  /*-----Cambio tamaño a las letras del footer-----*/
+  .grid-footer-centro-de-ayuda .llamada-banco {
+    font-size: 15px; }
+  /*-----pages index-----*/
+  /*-----cambio tamaño a los elementos-----*/
+  .grid-contenedor-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px 600px;
+    background-color: white;
+    grid-template-areas: "a b" "c d" "e f"; }
+    .grid-contenedor-section img {
+      height: 250px;
+      width: 350px; }
+    .grid-contenedor-section p {
+      text-align: center; }
+    .grid-contenedor-section .creditohipotecario {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin-top: 40px;
+      grid-area: a; }
+    .grid-contenedor-section .tarjetas {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin-top: 40px;
+      grid-area: b; }
+    .grid-contenedor-section .cuentasueldo {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: c; }
+    .grid-contenedor-section .cuentaonline {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: d; }
+    .grid-contenedor-section .beneficios {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: e; }
+    .grid-contenedor-section .seguros {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: f; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente1 {
+    font-size: 1.5rem; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente2 {
+    font-size: 1.5rem; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente3 {
+    font-size: 1.5rem; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente4 {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 860px) {
+  /*-----pages index-----*/
+  /*-----conversion a una sola columna-----*/
+  .grid-contenedor-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 600px 600px 600px 600px 600px;
+    background-color: white;
+    grid-template-areas: "a" "b" "c" "d" "e" "f"; }
+    .grid-contenedor-section img {
+      height: 250px;
+      width: 350px; }
+    .grid-contenedor-section p {
+      text-align: center; }
+    .grid-contenedor-section .creditohipotecario {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin-top: 40px;
+      grid-area: a; }
+    .grid-contenedor-section .tarjetas {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin-top: 40px;
+      grid-area: b; }
+    .grid-contenedor-section .cuentasueldo {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: c; }
+    .grid-contenedor-section .cuentaonline {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: d; }
+    .grid-contenedor-section .beneficios {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: e; }
+    .grid-contenedor-section .seguros {
+      background-color: aliceblue;
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+      grid-area: f; }
+  /*-----pages Tarjetas-----*/
+  /*-----modificacion de valores en px-----*/
+  .grid-contenedor-tarjetas .tarjetas-imagen h2 {
+    font-size: 15px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen p {
+    font-size: 10px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen .div {
+    width: 80px;
+    height: 80px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen img {
+    width: 50px;
+    height: 50px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen2 h2 {
+    font-size: 15px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen2 p {
+    font-size: 10px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen2 .div {
+    width: 80px;
+    height: 80px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen2 img {
+    width: 50px;
+    height: 50px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen3 h2 {
+    font-size: 15px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen3 p {
+    font-size: 10px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen3 .div {
+    width: 80px;
+    height: 80px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen3 img {
+    width: 50px;
+    height: 50px; }
+  /*-----pages Cuentas-----*/
+  /*-----modificacion de valores en px-----*/
+  .grid-contenedor-cuentas .cuentas-imagen h2 {
+    font-size: 16px; }
+  .grid-contenedor-cuentas .cuentas-imagen2 h2 {
+    font-size: 18px; }
+  .grid-contenedor-cuentas .cuentas-imagen3 h2 {
+    font-size: 18px; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente1 {
+    font-size: 1rem; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente2 {
+    font-size: 1rem; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente3 {
+    font-size: 1rem; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente4 {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 550px) {
+  /*-----pages sucursales-----*/
+  /*-----cambio tamaño de los iframe-----*/
+  .iframe {
+    width: 300px;
+    height: 200px; }
+  /*-----pages index-----*/
+  /*-----modifico tamaño del nav del inicio-----*/
+  .nav-inicio {
+    transition: 5s; }
+    .nav-inicio ul {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      list-style: none; }
+      .nav-inicio ul li {
+        margin: 20px 0px 10px 0px; }
+        .nav-inicio ul li:hover {
+          text-decoration: overline;
+          transform: scale(1.5); }
+        .nav-inicio ul li a {
+          text-decoration: bold;
+          color: rgba(32, 109, 172, 0.925);
+          background-color: rgba(245, 245, 245, 0.918);
+          padding: 5px;
+          font-size: 10px;
+          border-radius: 30px; }
+  .grid-contenedor-cuentas .cuentas-imagen h2 {
+    font-size: 12px; }
+  .grid-contenedor-cuentas .cuentas-imagen2 h2 {
+    font-size: 12px; }
+  .grid-contenedor-cuentas .cuentas-imagen3 h2 {
+    font-size: 12px; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente1 {
+    font-size: 0.5rem;
+    border-radius: 10px; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente2 {
+    font-size: 0.5rem;
+    border-radius: 10px; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente3 {
+    font-size: 0.5rem;
+    border-radius: 10px; }
+  .contenedor-hacete-cliente .p-cliente-all .p-cliente4 {
+    font-size: 0.5rem;
+    border-radius: 10px; } }
+
+@media screen and (max-width: 440px) {
+  /*-----pages index-----*/
+  /*-----cambio tamaño a los elementos-----*/
+  .grid-contenedor-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 600px 600px 600px 600px 600px;
+    background-color: white;
+    grid-template-areas: "a" "b" "c" "d" "e" "f"; }
+    .grid-contenedor-section p {
+      text-align: center; }
+    .grid-contenedor-section .creditohipotecario {
+      background-color: aliceblue;
+      width: 280px;
+      height: 500px;
+      margin-top: 40px;
+      grid-area: a; }
+      .grid-contenedor-section .creditohipotecario img {
+        height: 180px;
+        width: 260px; }
+    .grid-contenedor-section .tarjetas {
+      background-color: aliceblue;
+      width: 280px;
+      height: 500px;
+      margin-top: 40px;
+      grid-area: b; }
+      .grid-contenedor-section .tarjetas img {
+        height: 180px;
+        width: 260px; }
+    .grid-contenedor-section .cuentasueldo {
+      background-color: aliceblue;
+      width: 280px;
+      height: 500px;
+      margin: 0px;
+      grid-area: c; }
+      .grid-contenedor-section .cuentasueldo img {
+        height: 180px;
+        width: 260px; }
+    .grid-contenedor-section .cuentaonline {
+      background-color: aliceblue;
+      width: 280px;
+      height: 500px;
+      margin: 0px;
+      grid-area: d; }
+      .grid-contenedor-section .cuentaonline img {
+        height: 180px;
+        width: 260px; }
+    .grid-contenedor-section .beneficios {
+      background-color: aliceblue;
+      width: 280px;
+      height: 500px;
+      margin: 0px;
+      grid-area: e; }
+      .grid-contenedor-section .beneficios img {
+        height: 180px;
+        width: 260px; }
+    .grid-contenedor-section .seguros {
+      background-color: aliceblue;
+      width: 280px;
+      height: 500px;
+      margin: 0px;
+      grid-area: f; }
+      .grid-contenedor-section .seguros img {
+        height: 180px;
+        width: 260px; } }
+
 .redes img {
   width: 50px;
   height: 50px;
@@ -307,6 +640,454 @@ p {
 .redes :hover {
   transform: scale(1.2); }
 
-.creditohipotecario a:hover, .tarjetas a:hover, .cuentasueldo a:hover, .cuentaonline a:hover, .beneficios a:hover, .seguros a:hover {
+.grid-contenedor-section .creditohipotecario a:hover, .grid-contenedor-section .tarjetas a:hover, .grid-contenedor-section .cuentasueldo a:hover, .grid-contenedor-section .cuentaonline a:hover, .grid-contenedor-section .beneficios a:hover, .grid-contenedor-section .seguros a:hover {
   background-color: rgba(21, 21, 252, 0.671);
   color: white; }
+
+.centro-de-ayuda-contenedor {
+  margin-top: 50px;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-areas: "c1 b1" "c2 b2" "c3 b3" "c4 b4" "c5 b5"; }
+
+.progress {
+  margin-top: 0px;
+  grid-area: b1; }
+
+.c1 {
+  margin: 0px;
+  grid-area: c1; }
+
+.b2 {
+  grid-area: b2; }
+
+.c2 {
+  grid-area: c2; }
+
+.b3 {
+  grid-area: b3; }
+
+.c3 {
+  grid-area: c3; }
+
+.b4 {
+  grid-area: b4; }
+
+.c4 {
+  grid-area: c4; }
+
+.b5 {
+  grid-area: b5; }
+
+.c5 {
+  grid-area: c5; }
+
+.grid-footer-centro-de-ayuda {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-template-areas: "c d" "a b"; }
+  .grid-footer-centro-de-ayuda .redes-texto-blanco {
+    grid-area: d; }
+  .grid-footer-centro-de-ayuda .redes-texto {
+    margin-left: 15px;
+    margin-top: 15px;
+    grid-area: c; }
+  .grid-footer-centro-de-ayuda .llamada-banco {
+    grid-area: b; }
+
+.redes {
+  margin-top: 10px;
+  grid-area: a; }
+
+.grid-contenedor-cuentas {
+  display: grid;
+  border: solid 10px white;
+  column-gap: 60px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 190px 150px 140px 135px 145px 140px 140px 180px;
+  grid-template-areas: "tl1 tc1 tr1" "tl2 tc2 tr2" "tl3 tc3 tr3" "tl4 tc4 tr4" "tl5 tc5" "tl6 tc6" "tl7 tr7" "tl8 tr8"; }
+  .grid-contenedor-cuentas .tl1 {
+    grid-area: tl1; }
+  .grid-contenedor-cuentas .tc1 {
+    grid-area: tc1; }
+  .grid-contenedor-cuentas .tr1 {
+    grid-area: tr1; }
+  .grid-contenedor-cuentas .tl2 {
+    grid-area: tl2; }
+  .grid-contenedor-cuentas .tc2 {
+    grid-area: tc2; }
+  .grid-contenedor-cuentas .tr2 {
+    grid-area: tr2; }
+  .grid-contenedor-cuentas .tl3 {
+    grid-area: tl3; }
+  .grid-contenedor-cuentas .tc3 {
+    grid-area: tc3; }
+  .grid-contenedor-cuentas .tr3 {
+    grid-area: tr3; }
+  .grid-contenedor-cuentas .tl4 {
+    grid-area: tl4; }
+  .grid-contenedor-cuentas .tc4 {
+    grid-area: tc4; }
+  .grid-contenedor-cuentas .tr4 {
+    grid-area: tr4; }
+  .grid-contenedor-cuentas .tl5 {
+    grid-area: tl5; }
+  .grid-contenedor-cuentas .tc5 {
+    grid-area: tc5; }
+  .grid-contenedor-cuentas .tl6 {
+    grid-area: tl6; }
+  .grid-contenedor-cuentas .tc6 {
+    grid-area: tc6; }
+  .grid-contenedor-cuentas .tl7 {
+    grid-area: tl7; }
+  .grid-contenedor-cuentas .tl8 {
+    grid-area: tl8; }
+  .grid-contenedor-cuentas .cuentas-imagen .tl2 {
+    background-color: #efb810; }
+  .grid-contenedor-cuentas .cuentas-imagen h2 {
+    background-color: white;
+    color: blue;
+    text-align: center; }
+  .grid-contenedor-cuentas .cuentas-imagen p {
+    color: black; }
+  .grid-contenedor-cuentas .cuentas-imagen div {
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 20px; }
+    .grid-contenedor-cuentas .cuentas-imagen div:hover {
+      transform: scale(1.2); }
+  .grid-contenedor-cuentas .cuentas-imagen img {
+    width: 100px;
+    height: 100px; }
+  .grid-contenedor-cuentas .cuentas-imagen2 .tc2 {
+    background-color: #b0b8b9; }
+  .grid-contenedor-cuentas .cuentas-imagen2 h2 {
+    background-color: white;
+    color: blue;
+    text-align: center; }
+  .grid-contenedor-cuentas .cuentas-imagen2 p {
+    color: black; }
+  .grid-contenedor-cuentas .cuentas-imagen2 div {
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 20px; }
+    .grid-contenedor-cuentas .cuentas-imagen2 div:hover {
+      transform: scale(1.2); }
+  .grid-contenedor-cuentas .cuentas-imagen2 img {
+    width: 100px;
+    height: 100px; }
+  .grid-contenedor-cuentas .cuentas-imagen3 .tr2 {
+    background-color: #e07f1f; }
+  .grid-contenedor-cuentas .cuentas-imagen3 h2 {
+    background-color: white;
+    color: blue;
+    text-align: center; }
+  .grid-contenedor-cuentas .cuentas-imagen3 p {
+    color: black; }
+  .grid-contenedor-cuentas .cuentas-imagen3 div {
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 20px; }
+    .grid-contenedor-cuentas .cuentas-imagen3 div:hover {
+      transform: scale(1.2); }
+  .grid-contenedor-cuentas .cuentas-imagen3 img {
+    width: 100px;
+    height: 100px; }
+
+.grid-contenedor-tarjetas {
+  display: grid;
+  border: solid 10px white;
+  column-gap: 60px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 190px 150px 140px 135px 145px 140px 140px 180px;
+  grid-template-areas: "tl1 tc1 tr1" "tl2 tc2 tr2" "tl3 tc3 tr3" "tl4 tc4 tr4" "tl5 tc5" "tl6 tc6" "tl7 tr7" "tl8 tr8"; }
+  .grid-contenedor-tarjetas .tl1 {
+    grid-area: tl1; }
+  .grid-contenedor-tarjetas .tc1 {
+    grid-area: tc1; }
+  .grid-contenedor-tarjetas .tr1 {
+    grid-area: tr1; }
+  .grid-contenedor-tarjetas .tl2 {
+    grid-area: tl2; }
+  .grid-contenedor-tarjetas .tc2 {
+    grid-area: tc2; }
+  .grid-contenedor-tarjetas .tr2 {
+    grid-area: tr2; }
+  .grid-contenedor-tarjetas .tl3 {
+    grid-area: tl3; }
+  .grid-contenedor-tarjetas .tc3 {
+    grid-area: tc3; }
+  .grid-contenedor-tarjetas .tr3 {
+    grid-area: tr3; }
+  .grid-contenedor-tarjetas .tl4 {
+    grid-area: tl4; }
+  .grid-contenedor-tarjetas .tc4 {
+    grid-area: tc4; }
+  .grid-contenedor-tarjetas .tr4 {
+    grid-area: tr4; }
+  .grid-contenedor-tarjetas .tl5 {
+    grid-area: tl5; }
+  .grid-contenedor-tarjetas .tc5 {
+    grid-area: tc5; }
+  .grid-contenedor-tarjetas .tl6 {
+    grid-area: tl6; }
+  .grid-contenedor-tarjetas .tc6 {
+    grid-area: tc6; }
+  .grid-contenedor-tarjetas .tl7 {
+    grid-area: tl7; }
+  .grid-contenedor-tarjetas .tl8 {
+    grid-area: tl8; }
+  .grid-contenedor-tarjetas .tarjetas-imagen {
+    background-color: #86aad3; }
+    .grid-contenedor-tarjetas .tarjetas-imagen .tl2 {
+      background-color: #0a21f1; }
+    .grid-contenedor-tarjetas .tarjetas-imagen h2 {
+      background-color: white;
+      color: blue;
+      text-align: center; }
+    .grid-contenedor-tarjetas .tarjetas-imagen p {
+      color: white; }
+    .grid-contenedor-tarjetas .tarjetas-imagen div {
+      text-align: center;
+      background-color: #86aad3; }
+      .grid-contenedor-tarjetas .tarjetas-imagen div:hover {
+        transform: scale(1.2); }
+    .grid-contenedor-tarjetas .tarjetas-imagen img {
+      width: 100px;
+      height: 100px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen2 {
+    background-color: #86aad3; }
+    .grid-contenedor-tarjetas .tarjetas-imagen2 .tc2 {
+      background-color: #0a21f1; }
+    .grid-contenedor-tarjetas .tarjetas-imagen2 h2 {
+      background-color: white;
+      color: blue;
+      text-align: center; }
+    .grid-contenedor-tarjetas .tarjetas-imagen2 p {
+      color: white; }
+    .grid-contenedor-tarjetas .tarjetas-imagen2 div {
+      background-color: #86aad3;
+      text-align: center; }
+      .grid-contenedor-tarjetas .tarjetas-imagen2 div:hover {
+        transform: scale(1.2); }
+    .grid-contenedor-tarjetas .tarjetas-imagen2 img {
+      width: 100px;
+      height: 100px; }
+  .grid-contenedor-tarjetas .tarjetas-imagen3 {
+    background-color: #86aad3; }
+    .grid-contenedor-tarjetas .tarjetas-imagen3 .tr2 {
+      background-color: #0a21f1; }
+    .grid-contenedor-tarjetas .tarjetas-imagen3 h2 {
+      background-color: white;
+      color: blue;
+      text-align: center; }
+    .grid-contenedor-tarjetas .tarjetas-imagen3 p {
+      color: white; }
+    .grid-contenedor-tarjetas .tarjetas-imagen3 div {
+      background-color: #86aad3;
+      text-align: center; }
+      .grid-contenedor-tarjetas .tarjetas-imagen3 div:hover {
+        transform: scale(1.2); }
+    .grid-contenedor-tarjetas .tarjetas-imagen3 img {
+      width: 100px;
+      height: 100px; }
+
+.contenedor-hacete-cliente {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black; }
+  .contenedor-hacete-cliente img {
+    width: 100%;
+    height: 100%; }
+  .contenedor-hacete-cliente .p-cliente-all :hover {
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #091379 0%, rgba(0, 121, 255, 0.93041) 28%); }
+  .contenedor-hacete-cliente .p-cliente1 {
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #1f65c0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .contenedor-hacete-cliente .p-cliente2 {
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #1f65c0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .contenedor-hacete-cliente .p-cliente3 {
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #1f65c0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .contenedor-hacete-cliente .p-cliente4 {
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #1f65c0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.online-h2 {
+  background: linear-gradient(90deg, #020024 0%, #091379 0%, rgba(0, 121, 255, 0.93041) 28%);
+  border: solid cornflowerblue;
+  border-radius: 30px;
+  text-align: center;
+  color: white; }
+
+.online-contenedor-icono {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 100px;
+  grid-template-areas: "a" "b";
+  margin-bottom: 30px; }
+  .online-contenedor-icono .img-online {
+    grid-area: a;
+    text-align: center; }
+  .online-contenedor-icono .p-online {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a0a0a0;
+    grid-area: b;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; }
+
+.online-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.grid-contenedor-prestamos {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px;
+  grid-template-areas: "a b c";
+  margin-top: 30px;
+  margin-bottom: 50px; }
+  .grid-contenedor-prestamos img {
+    width: 100px;
+    height: 100px; }
+  .grid-contenedor-prestamos .border-personal {
+    border: solid rgba(49, 26, 179, 0.829);
+    border-width: 8px;
+    border-radius: 30px; }
+    .grid-contenedor-prestamos .border-personal .prestamo-personal {
+      grid-area: a;
+      text-align: center; }
+      .grid-contenedor-prestamos .border-personal .prestamo-personal .p-personal1 {
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px; }
+      .grid-contenedor-prestamos .border-personal .prestamo-personal p {
+        font-size: 13px;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold; }
+  .grid-contenedor-prestamos .border-hipotecario {
+    border: solid rgba(49, 26, 179, 0.829);
+    border-width: 8px;
+    border-radius: 30px; }
+    .grid-contenedor-prestamos .border-hipotecario .prestamo-hipotecario {
+      grid-area: b;
+      text-align: center; }
+      .grid-contenedor-prestamos .border-hipotecario .prestamo-hipotecario .p-hipotecario1 {
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px; }
+  .grid-contenedor-prestamos .border-prendario {
+    border: solid rgba(49, 26, 179, 0.829);
+    border-width: 8px;
+    border-radius: 30px; }
+    .grid-contenedor-prestamos .border-prendario .prestamo-prendario {
+      grid-area: c;
+      text-align: center; }
+      .grid-contenedor-prestamos .border-prendario .prestamo-prendario .p-prendario1 {
+        margin-top: 10px;
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px; }
+  .grid-contenedor-prestamos .p {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold; }
+  .grid-contenedor-prestamos p {
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold; }
+
+.pin {
+  text-align: center; }
+  .pin img {
+    width: 100px;
+    height: 100px; }
+
+.sucursales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px; }
+
+.palermo {
+  margin-top: 40px;
+  text-align: center; }
+
+.recoleta {
+  margin-top: 80px;
+  text-align: center; }
+
+.vicente {
+  margin-top: 80px;
+  text-align: center; }

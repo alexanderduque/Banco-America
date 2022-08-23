@@ -1,0 +1,105 @@
+.grid-contenedor-prestamos {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    grid-template-areas:
+        "a b c"
+    ;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .border-personal {
+        border: solid rgba(49, 26, 179, 0.829);
+        border-width: 8px;
+        border-radius: 30px;
+
+        .prestamo-personal {
+            grid-area: a;
+            text-align: center;
+
+            .p-personal1 {
+                margin-top: 10px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px;
+                border-radius: 20px;
+            }
+
+            p {
+               font-size: 13px;
+                padding: 5px;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .border-hipotecario {
+        border: solid rgba(49, 26, 179, 0.829);
+        border-width: 8px;
+        border-radius: 30px;
+
+        .prestamo-hipotecario {
+            grid-area: b;
+            text-align: center;
+
+            .p-hipotecario1 {
+                margin-top: 10px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .border-prendario {
+        border: solid rgba(49, 26, 179, 0.829);
+        border-width: 8px;
+        border-radius: 30px;
+
+        .prestamo-prendario {
+            grid-area: c;
+            text-align: center;
+
+            .p-prendario1 {
+                margin-top: 10px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+                padding: 10px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+
+
+
+    .p {
+        font-size: 13px;
+        text-align: center;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 13px;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+}

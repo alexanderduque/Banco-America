@@ -1,5 +1,6 @@
 @import "../base/maps";
 @import "../base/mixins.scss";
+
 .nav-inicio {
 
     transition: 5s;
@@ -19,35 +20,30 @@
             }
 
             a {
-                text-decoration: map-get($boton-index , text-decoration );
-                color: map-get($boton-index , color );
-                background-color: map-get($boton-index , bg-boton );
-                padding: map-get($boton-index , padding );
-                font-size: map-get($boton-index , size );
+                text-decoration: map-get($boton-index , text-decoration);
+                color: map-get($boton-index , color);
+                background-color: map-get($boton-index , bg-boton);
+                padding: map-get($boton-index , padding);
+                font-size: map-get($boton-index , size);
                 border-radius: map-get($boton-index , border);
             }
         }
     }
 }
-
-.logo-banco {
-    img {
-        width: 50px;
-        height: 50px;
-    }
-}
-
 h1 {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 1) 0%, rgba(0, 121, 255, 0.9304096638655462) 28%);
     margin-top: 50px;
     margin-bottom: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 28px;
-    color: rgb(22, 25, 170);
+    color: white;
 }
 
 .grid-contenedor-section {
-    @include flex(flex, grid, space-between );
+    display: flex;
+    display: grid;
+    @include flex(flex, grid, space-between);
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 400px 400px 400px;
@@ -57,271 +53,254 @@ h1 {
         "a b c"
         "d e f"
     ;
-}
-
-.creditohipotecario {
-    grid-area: a;
-}
-
-.tarjetas {
-    grid-area: b;
-}
-
-.cuentasueldo {
-    grid-area: c;
-}
-
-.cuentaonline {
-    margin-top: 300px;
-    grid-area: d;
-}
-
-.beneficios {
-    margin-top: 300px;
-    grid-area: e;
-}
-
-.seguros {
-    margin-top: 300px;
-    grid-area: f;
-}
-
-img {
-    height: 250px;
-    width: 350px;
-}
-
-p {
-    text-align: center;
-}
-
-.creditohipotecario {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 80px;
-    margin-top: 40px;
-    text-align: center;
-    border-radius: 15px;
-    background-color: aliceblue;
-    display: inline-block;
-    margin-right: 20px;
-
-    img {
-
-        width: 320px;
-        height: 200px;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
-
-    p {
-        margin-top: 20px;
-        margin-bottom: 35px;
-        font-size: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        background-color: rgb(17, 20, 153);
-        padding: 10px;
-        color: white;
-        border-radius: 10px;
-
-        &:hover {
-            @extend %bg;
-        }
-
-    }
-}
-
-.tarjetas {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    text-align: center;
-    border-radius: 15px;
-    background-color: aliceblue;
-    margin-left: 19px;
-    margin-top: 40px;
-
-    img {
-        width: 340px;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 30px;
-    }
-
-    p {
-        margin-top: 20px;
-        margin-bottom: 67px;
-        font-size: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        background-color: rgb(17, 20, 153);
-        padding: 10px;
-        color: white;
-        border-radius: 10px;
-
-        &:hover {
-
-            @extend %bg;
-        }
-    }
-}
-
-.cuentasueldo {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
-    margin-top: 42px;
-
-    img {
-        width: 330px;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 30px;
-    }
-
-    p {
-        margin-top: 20px;
-        margin-bottom: 65px;
-        font-size: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        background-color: rgb(17, 20, 153);
-        padding: 10px;
-        color: white;
-        border-radius: 10px;
-
-        &:hover {
-
-            @extend %bg;
-        }
-
-    }
-}
-
-.cuentaonline {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
 
 
     img {
+        height: 250px;
         width: 350px;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 30px;
     }
 
     p {
-        margin-top: 20px;
-        margin-bottom: 97px;
-        font-size: 20px;
+        text-align: center;
     }
 
-    a {
-        text-decoration: none;
-        background-color: rgb(17, 20, 153);
-        padding: 10px;
-        color: white;
-        border-radius: 10px;
+    .creditohipotecario {
+        grid-area: a;
+        width: 600px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        margin-bottom: 80px;
+        margin-top: 40px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: aliceblue;
+        display: inline-block;
 
-        &:hover {
+        img {
 
-            @extend %bg;
+            width: 320px;
+            height: 200px;
+            border-radius: 30px;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 67px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(17, 20, 153);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+
+            &:hover {
+                @extend %bg;
+            }
+
+        }
+    }
+
+    .tarjetas {
+        justify-items: end;
+        align-items: end;
+        grid-area: b;
+        width: 600px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        text-align: center;
+        border-radius: 15px;
+        background-color: aliceblue;
+        margin-top: 40px;
+
+        img {
+            width: 340px;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 30px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 67px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(17, 20, 153);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+
+            &:hover {
+
+                @extend %bg;
+            }
+        }
+    }
+
+    .cuentasueldo {
+        grid-area: c;
+        width: 600px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        text-align: center;
+        display: inline-block;
+        background-color: aliceblue;
+        border-radius: 15px;
+        margin-top: 42px;
+
+        img {
+            width: 330px;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 30px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 65px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(17, 20, 153);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+
+            &:hover {
+
+                @extend %bg;
+            }
+
+        }
+    }
+
+    .cuentaonline {
+        margin-top: 300px;
+        grid-area: d;
+        width: 600px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        margin-bottom: 20px;
+        text-align: center;
+        display: inline-block;
+        background-color: aliceblue;
+        border-radius: 15px;
+
+
+        img {
+            width: 350px;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 30px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 97px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(17, 20, 153);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+
+            &:hover {
+
+                @extend %bg;
+            }
+
+        }
+    }
+
+    .beneficios {
+        margin-top: 300px;
+        grid-area: e;
+        width: 600px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        margin-bottom: 20px;
+        text-align: center;
+        display: inline-block;
+        background-color: aliceblue;
+        border-radius: 15px;
+        margin-right: 20px;
+
+        img {
+            width: 330px;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 30px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 97px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(17, 20, 153);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+
+            &:hover {
+
+                @extend %bg;
+            }
+        }
+    }
+
+    .seguros {
+        margin-top: 300px;
+        grid-area: f;
+        width: 600px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        margin-bottom: 20px;
+        text-align: center;
+        display: inline-block;
+        background-color: aliceblue;
+        border-radius: 15px;
+
+
+        img {
+            width: 330px;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 30px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 97px;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: rgb(17, 20, 153);
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+
+            &:hover {
+
+                @extend %bg;
+            }
         }
 
     }
-}
-
-.beneficios {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
-    margin-right: 20px;
-
-    img {
-        width: 330px;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 30px;
-    }
-
-    p {
-        margin-top: 20px;
-        margin-bottom: 97px;
-        font-size: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        background-color: rgb(17, 20, 153);
-        padding: 10px;
-        color: white;
-        border-radius: 10px;
-
-        &:hover {
-
-            @extend %bg;
-        }
-    }
-}
-
-.seguros {
-    width: 600px;
-    height: 400px;
-    border: 1px solid gainsboro;
-    margin-bottom: 20px;
-    text-align: center;
-    display: inline-block;
-    background-color: aliceblue;
-    border-radius: 15px;
-
-
-    img {
-        width: 330px;
-        height: 200px;
-        margin-top: 20px;
-        border-radius: 30px;
-    }
-
-    p {
-        margin-top: 20px;
-        margin-bottom: 97px;
-        font-size: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        background-color: rgb(17, 20, 153);
-        padding: 10px;
-        color: white;
-        border-radius: 10px;
-
-        &:hover {
-
-            @extend %bg;
-        }
-    }
-    
 }

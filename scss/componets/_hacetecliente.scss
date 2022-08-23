@@ -1,0 +1,78 @@
+.contenedor-hacete-cliente {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .p-cliente-all :hover {
+
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 1) 0%, rgba(0, 121, 255, 0.9304096638655462) 28%);
+
+    }
+
+    .p-cliente1 {
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 5px;
+        background-color: rgb(31, 101, 192);
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .p-cliente2 {
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 5px;
+        background-color: rgb(31, 101, 192);
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .p-cliente3 {
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 5px;
+        background-color: rgb(31, 101, 192);
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .p-cliente4 {
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 15px;
+        background-color: rgb(31, 101, 192);
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}

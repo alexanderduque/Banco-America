@@ -1,0 +1,39 @@
+.pin {
+    text-align: center;
+
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.sucursales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+
+}
+
+.palermo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.recoleta {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.vicente {
+    margin-top: 80px;
+    text-align: center;
+}
