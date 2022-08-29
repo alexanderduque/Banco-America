@@ -1,6 +1,6 @@
 .grid-contenedor-prestamos {
     display: grid;
-    column-gap: 50px;
+    column-gap: 2px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 350px;
     grid-template-areas:
@@ -10,8 +10,8 @@
     margin-bottom: 50px;
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .border-personal {
@@ -25,12 +25,12 @@
 
             .p-personal1 {
                 margin-top: 10px;
-                background-color: blue;
+                background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 1) 0%, rgba(0, 121, 255, 0.9304096638655462) 28%);
                 color: white;
                 font-weight: bold;
                 text-align: center;
-                padding: 10px;
-                border-radius: 20px;
+                padding: 5px;
+                border-radius: 10px;
             }
 
             p {
@@ -53,12 +53,12 @@
 
             .p-hipotecario1 {
                 margin-top: 10px;
-                background-color: blue;
+                background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 1) 0%, rgba(0, 121, 255, 0.9304096638655462) 28%);
                 color: white;
                 font-weight: bold;
                 text-align: center;
-                padding: 10px;
-                border-radius: 20px;
+                padding: 5px;
+                border-radius: 10px;
             }
         }
     }
@@ -74,12 +74,12 @@
 
             .p-prendario1 {
                 margin-top: 10px;
-                background-color: blue;
+                background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 19, 121, 1) 0%, rgba(0, 121, 255, 0.9304096638655462) 28%);
                 color: white;
                 font-weight: bold;
                 text-align: center;
-                padding: 10px;
-                border-radius: 20px;
+                padding: 5px;
+                border-radius: 10px;
             }
         }
     }

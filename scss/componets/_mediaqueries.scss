@@ -1,4 +1,6 @@
 @import "../base/maps";
+@import "../componets/prestamos";
+@import "../componets/footer";
 
 @media screen and (max-width: 2900) {
 
@@ -317,21 +319,25 @@
             grid-area: f;
         }
     }
-    .contenedor-hacete-cliente{
-        .p-cliente-all{
-            .p-cliente1{
+
+    .contenedor-hacete-cliente {
+        .p-cliente-all {
+            .p-cliente1 {
                 font-size: 1.5rem;
 
             }
-            .p-cliente2{
+
+            .p-cliente2 {
                 font-size: 1.5rem;
 
             }
-            .p-cliente3{
+
+            .p-cliente3 {
                 font-size: 1.5rem;
 
             }
-            .p-cliente4{
+
+            .p-cliente4 {
                 font-size: 1.5rem;
 
             }
@@ -493,7 +499,7 @@
     .grid-contenedor-cuentas {
         .cuentas-imagen {
             h2 {
-                font-size: 16px;
+                font-size: 18px;
             }
         }
 
@@ -510,21 +516,25 @@
         }
 
     }
-    .contenedor-hacete-cliente{
-        .p-cliente-all{
-            .p-cliente1{
+
+    .contenedor-hacete-cliente {
+        .p-cliente-all {
+            .p-cliente1 {
                 font-size: 1rem;
 
             }
-            .p-cliente2{
+
+            .p-cliente2 {
                 font-size: 1rem;
 
             }
-            .p-cliente3{
+
+            .p-cliente3 {
                 font-size: 1rem;
 
             }
-            .p-cliente4{
+
+            .p-cliente4 {
                 font-size: 1rem;
 
             }
@@ -593,29 +603,52 @@
         }
 
     }
-    .contenedor-hacete-cliente{
-        .p-cliente-all{
-            .p-cliente1{
+
+    .contenedor-hacete-cliente {
+        .p-cliente-all {
+            .p-cliente1 {
                 font-size: 0.5rem;
                 border-radius: 10px;
 
             }
-            .p-cliente2{
+
+            .p-cliente2 {
                 font-size: 0.5rem;
                 border-radius: 10px;
 
             }
-            .p-cliente3{
+
+            .p-cliente3 {
                 font-size: 0.5rem;
                 border-radius: 10px;
 
             }
-            .p-cliente4{
+
+            .p-cliente4 {
                 font-size: 0.5rem;
                 border-radius: 10px;
 
             }
         }
+    }
+    .grid-footer{
+
+        .f1{
+            font-size: 15px;
+        }
+        .f2{
+            font-size: 15px;
+        }
+        .footer{
+            font-size: 15px;
+        }
+        .redes{
+            .img{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    
     }
 }
 
@@ -723,5 +756,27 @@
                 width: 260px;
             }
         }
+    }
+
+    /*-----pages footer-----*/
+    /*-----cambio tamaño a los elementos-----*/
+    .grid-footer{
+
+        .f1{
+            font-size: 15px;
+        }
+        .f2{
+            font-size: 15px;
+        }
+        .footer{
+            font-size: 15px;
+        }
+        .redes{
+            .img{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    
     }
 }

@@ -1,7 +1,7 @@
 .grid-contenedor-cuentas {
     display: grid;
     border: solid 10px white;
-    column-gap: 60px;
+    column-gap: 2px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 190px 150px 140px 135px 145px 140px 140px 180px;
     grid-template-areas:
@@ -113,7 +113,7 @@
 
         div {
             text-align: center;
-            background-color: aliceblue;
+            background-color: rgba(17, 101, 197, 0.575);
             margin-top: 20px;
 
             &:hover {
@@ -151,7 +151,7 @@
         }
 
         div {
-            background-color: aliceblue;
+            background-color: rgba(17, 101, 197, 0.575);
             text-align: center;
             margin-top: 20px;
 
@@ -187,7 +187,7 @@
         }
 
         div {
-            background-color: aliceblue;
+            background-color: rgba(17, 101, 197, 0.575);
             text-align: center;
             margin-top: 20px;
 
